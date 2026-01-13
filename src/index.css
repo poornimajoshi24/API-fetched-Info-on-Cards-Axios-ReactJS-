@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body{
+    padding:20px;
+    background-color:black;
+}
+.user-card {
+  width: 300px;
+  min-height: 300px;      /* fixed height mat rakho */
+  border-radius: 10px;
+  margin: 20px;
+  padding: 15px;
+  color: white;
+  
+  font-style: italic;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  overflow: hidden;      /* content bahar na nikle */
+  word-wrap: break-word;
+}
+.user-card h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.user-card h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+
+.all-cards{
+    display:flex;
+    flex-wrap:wrap;
+}
+button {
+  padding: 12px 40px;
+  font-size: 18px;
+  font-weight: 600;
+
+  color: white;
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  border: none;
+  border-radius: 30px;
+
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(255, 75, 43, 0.4);
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 10px rgba(255, 75, 43, 0.3);
+}
