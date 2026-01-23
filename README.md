@@ -38,8 +38,6 @@ Each card displays:
 
 ---
 
----
-
 ## ▶️ How to Run the Project
 
 ### 1️⃣ Clone the repository
