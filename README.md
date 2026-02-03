@@ -36,7 +36,6 @@ Each card displays:
 - Phone
 - Website
 
----
 ### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/poornimajoshi24/API-fetched-Info-on-Cards-Axios-ReactJS-.git
